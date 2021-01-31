@@ -1,0 +1,121 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: red;
+    border: solid white 5px;
+}
+.clock::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top:48%;
+    left:48.2%;
+}
+.hand{
+    background: white;
+}
+.Hrs{
+    width: 12px;
+    height: 200px;
+    position: absolute;
+    top: 24%;
+    left: 49.5%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    transform-origin: bottom;
+}
+.Mins{
+    width: 11px;
+    height: 230px;
+    position: absolute;
+    top: 19.5%;
+    left: 49.5%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    transform-origin: bottom;
+}
+.Secs{
+    width: 10px;
+    height: 260px;
+    transform-origin: bottom;
+    position: absolute;
+    top: 15%;
+    left: 49.5%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+.numbers{
+    color: black;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.one{
+    position: absolute;
+    top:13%;
+    left:59%
+}
+.two{
+    position: absolute;
+    top:27%;
+    left:66%
+}
+.three{
+    position: absolute;
+    top:47.5%;
+    left:68.5%
+}
+.four{
+    position: absolute;
+    top:66%;
+    left:66%
+}
+.five{
+    position: absolute;
+    top:80%;
+    left:58.5%
+}
+.six{
+    position: absolute;
+    top:84%;
+    left:49%
+}
+.seven{
+    position: absolute;
+    top: 80%;
+    left: 39.5%;
+}
+.eight{
+    position: absolute;
+    top: 66%;
+    left: 32%;
+}
+.nine{
+    position: absolute;
+    top:47%;
+    left:30%;
+}
+.ten{
+    position: absolute;
+    top: 27%;
+    left: 31%;
+}
+.eleven{
+    position: absolute;
+    top: 13%;
+    left: 38%;
+}
+.twelve{
+    position: absolute;
+    top:8%;
+    left:48%
+}
